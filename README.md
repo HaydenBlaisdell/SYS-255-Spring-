@@ -13,8 +13,17 @@ Default gateway: A default gateway connects the host to the internet; it serves 
 
 --------------
 
-Next Lab here 
+LAB-02 Notes 
+
+ad01-hayden
+HAYDEN/Administrator pw:Dun******
+Uncheck update/ptr record can help troubleshoot 
+fw01-hayden.blaisdell.local = 10.0.5.2
+ad01-hayden.blaisdell.local = 10.0.5.5
 
 
 
-Deliverable for lab 7 Tech Journal entry. Make your github public & include URL 
+
+
+
+
