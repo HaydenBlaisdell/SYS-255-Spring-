@@ -29,11 +29,24 @@ On linux ping make sure to include -c 1 to be able to control amount of packets 
 Note to self: always rember to hostame in powerhsell to rember what user you are logged in as. 
 
 
+LAB 0-4 
+
+Process for setting a static IP:
+
+1. First create a network script file for eth0 or use nmtui
+2. Specify server IP Ex: IPADDR = 192.168.2.216
+3. Set default gateway IP Ex: 192.168.2.254
+4. Set DNS servers 
+5. Make sure IPV6 is dissabled 
+6. Restart network by the Command: systemctl restart network
 
 
+New User Command: 
 
+adduser newuser
 
+passwd newuser 
 
+Tree Command displays all users on machine 
 
-
-
+The Command Whoami displays the user that is CURRENTLY logged into the machine.
