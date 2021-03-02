@@ -29,7 +29,7 @@ On linux ping make sure to include -c 1 to be able to control amount of packets 
 Note to self: always rember to hostame in powerhsell to rember what user you are logged in as. 
 
 
-LAB 0-4 
+Linux HW: 
 
 Process for setting a static IP:
 
@@ -50,3 +50,26 @@ passwd newuser
 Tree Command displays all users on machine 
 
 The Command Whoami displays the user that is CURRENTLY logged into the machine.
+
+
+
+LAB 0-4: 
+
+on wks01 make sure to renew ip "ipconfig /renew
+
+make sure to release after "ipconfig /release"
+
+Set wks01 to dynamic istead of static:
+1.control panel 
+2.ethernet 
+3.check circles to "obtian" 
+
+after dhcp set up reload fire wall settings:
+1. firewall-cmd --add-service=dhcp --permanent 
+2. firewall-cmd --list-all
+
+Note to self: systemctl reload, systemctl start dhcpd, systemctle enable dhcpd 
+
+
+
+
