@@ -70,6 +70,11 @@ after dhcp set up reload fire wall settings:
 
 Note to self: systemctl reload, systemctl start dhcpd, systemctle enable dhcpd 
 
+file permissions: 
 
+Usefull cpmmands 
+1. ls -ld /marketing 
+2. chmod g+w /marketing 
+3. 
 
 
