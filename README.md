@@ -77,4 +77,5 @@ Usefull cpmmands
 2. chmod g+w /marketing 
 3. 
 
-
+Assesment prep: 
+For next weeks assingment I have Already been reviewing my previous labs and work For each lab I pull up the lab directions and plan on wlaking through the labs and the steps that it requiers for each task so I will be prepared on how to complete the task's on the assessment. I have also been watching some videos on parts of labs that I need a better understanding on so I know how each of my steps/actions are affecting my tasks. 
